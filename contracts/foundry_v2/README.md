@@ -2,6 +2,7 @@
 
 We are using Unichain Sepolia, according to the [docs](https://docs.unichain.org/docs/technical-information/contract-addresses#unichain-sepolia) here are the contract addresses:
 
+| Contract Name | Contract Address |
 | --- | --- |
 | Factory | [0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f](https://sepolia.uniscan.xyz/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f)  |
 | UniswapV2Router02 | [0x920b806E40A00E02E7D2b94fFc89860fDaEd3640](https://sepolia.uniscan.xyz/address/0x920b806E40A00E02E7D2b94fFc89860fDaEd3640) |
