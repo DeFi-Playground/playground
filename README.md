@@ -1,4 +1,8 @@
-# playground
+# Playground
+
+A playground for DeFi, currently focuses on Uniswap V2-V4.
+
+Uniswap's Factory and other contracts in Unichain Sepolia were deployed and documented in [https://docs.unichain.org/docs/technical-information/contract-addresses#unichain-sepolia](https://docs.unichain.org/docs/technical-information/contract-addresses#unichain-sepolia)
 
 To install dependencies:
 

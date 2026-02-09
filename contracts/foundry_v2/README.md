@@ -1,13 +1,10 @@
-## Foundry
+## Uniswap V2 Interactions
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+We are using Unichain Sepolia, according to the [docs](https://docs.unichain.org/docs/technical-information/contract-addresses#unichain-sepolia) here are the contract addresses:
 
-Foundry consists of:
-
-- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
-- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
-- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
-- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+| --- | --- |
+| Factory | [0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f](https://sepolia.uniscan.xyz/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f)  |
+| UniswapV2Router02 | [0x920b806E40A00E02E7D2b94fFc89860fDaEd3640](https://sepolia.uniscan.xyz/address/0x920b806E40A00E02E7D2b94fFc89860fDaEd3640) |
 
 ## Documentation
 
