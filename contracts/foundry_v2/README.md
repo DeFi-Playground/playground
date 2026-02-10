@@ -7,6 +7,18 @@ We are using Unichain Sepolia, according to the [docs](https://docs.unichain.org
 | Factory | [0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f](https://sepolia.uniscan.xyz/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f)  |
 | UniswapV2Router02 | [0x920b806E40A00E02E7D2b94fFc89860fDaEd3640](https://sepolia.uniscan.xyz/address/0x920b806E40A00E02E7D2b94fFc89860fDaEd3640) |
 
+## RPCs
+
+- https://unichain-sepolia-rpc.publicnode.com
+
+## Deployments
+
+| Contract Name | Contract Address |
+| --- | --- |
+| PlaygroundDefiToken (PDT) | [0x08bBB4a9D79b8399852cE870a901577a939c9983](https://unichain-sepolia.blockscout.com/token/0x08bBB4a9D79b8399852cE870a901577a939c9983) |
+| USDPlaygroundToken (USDP) | [0x255b030F3d2b8023C7aCc11A5A25C768a4F99Af4](https://unichain-sepolia.blockscout.com/token/0x255b030F3d2b8023C7aCc11A5A25C768a4F99Af4) |
+| Pair(USDP,PDT) | [0x486c627015838998A04e7742399700ff50643656](https://unichain-sepolia.blockscout.com/address/0x486c627015838998A04e7742399700ff50643656) |
+
 ## Documentation
 
 https://book.getfoundry.sh/
