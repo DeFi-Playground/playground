@@ -4,3 +4,6 @@
 [submodule "contracts/foundry_v2/lib/v2-periphery"]
 	path = contracts/foundry_v2/lib/v2-periphery
 	url = https://github.com/Uniswap/v2-periphery
+[submodule "contracts/foundry_v2/lib/solady"]
+	path = contracts/foundry_v2/lib/solady
+	url = https://github.com/vectorized/solady
