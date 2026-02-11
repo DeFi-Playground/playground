@@ -10,33 +10,28 @@ import {IERC20} from "v2-periphery/interfaces/IERC20.sol";
 contract UniswapV2Router02Script is Script {
 
     address public router02 = 0x920b806E40A00E02E7D2b94fFc89860fDaEd3640;
-    address public usdp = 0x255b030F3d2b8023C7aCc11A5A25C768a4F99Af4;
     address public pdt = 0x08bBB4a9D79b8399852cE870a901577a939c9983;
     address public sender = 0xECcEfbCE887DBdc1c393A409BaAb153F3380a364;
-    address public pair = 0x486c627015838998A04e7742399700ff50643656;
+    address public pair = 0xBE597ef10f90a3EaF02c380e05aa1E75aD293D69;
 
     function setUp() public {}
 
     function run() public {
         vm.startBroadcast();
 
-	uint amountADesired = 100e6;
+	uint amountETHMin = 1e14;
 	uint amountBDesired = 100e18;
-	uint amountAMin = 90e6;
-	uint amountBMin = 480e18;
+	uint amountBMin = 80e18;
 	uint deadline = block.timestamp + 60;
 	
 	// allowance
-	IERC20(usdp).approve(router02, amountADesired);
 	IERC20(pdt).approve(router02, amountBDesired);
 
-	(uint amountA, uint amountB, uint liquidity) = IUniswapV2Router02(router02).addLiquidity(
-	  usdp,
+	(uint amountA, uint amountB, uint liquidity) = IUniswapV2Router02(router02).addLiquidityETH{value: amountETHMin}(
 	  pdt,
-	  amountADesired,
 	  amountBDesired,
-	  amountAMin,
 	  amountBMin,
+	  amountETHMin,
 	  sender,
 	  deadline
 	);
@@ -61,8 +56,7 @@ contract UniswapV2Router02Script is Script {
 	// approval
 	IERC20(pair).approve(router02, liquidity);
 
-	(uint amountAReceived, uint amountBReceived) = IUniswapV2Router02(router02).removeLiquidity(
-	  usdp,
+	(uint amountAReceived, uint amountBReceived) = IUniswapV2Router02(router02).removeLiquidityETH(
 	  pdt,
 	  liquidity,
 	  0,

@@ -18,6 +18,7 @@ We are using Unichain Sepolia, according to the [docs](https://docs.unichain.org
 | PlaygroundDefiToken (PDT) | [0x08bBB4a9D79b8399852cE870a901577a939c9983](https://unichain-sepolia.blockscout.com/token/0x08bBB4a9D79b8399852cE870a901577a939c9983) |
 | USDPlaygroundToken (USDP) | [0x255b030F3d2b8023C7aCc11A5A25C768a4F99Af4](https://unichain-sepolia.blockscout.com/token/0x255b030F3d2b8023C7aCc11A5A25C768a4F99Af4) |
 | Pair(USDP,PDT) | [0x486c627015838998A04e7742399700ff50643656](https://unichain-sepolia.blockscout.com/address/0x486c627015838998A04e7742399700ff50643656) |
+| Pair(ETH,PDT) | [0xBE597ef10f90a3EaF02c380e05aa1E75aD293D69](https://unichain-sepolia.blockscout.com/address/0xBE597ef10f90a3EaF02c380e05aa1E75aD293D69) |
 
 ## Documentation
 
