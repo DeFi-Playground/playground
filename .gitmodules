@@ -7,3 +7,6 @@
 [submodule "contracts/foundry_v2/lib/solady"]
 	path = contracts/foundry_v2/lib/solady
 	url = https://github.com/vectorized/solady
+[submodule "contracts/flashloan/lib/solady"]
+	path = contracts/flashloan/lib/solady
+	url = https://github.com/vectorized/solady
